@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/subfolder/:asset*", "destination": "https://next-subfolder.vercel.app/:asset*" },
+      { "source": "/(.*)", "destination": "/" }
+    ]
+}
