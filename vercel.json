@@ -2,5 +2,6 @@
     "rewrites": [
       { "source": "/subfolder/:asset*", "destination": "https://nextjs-subfolder.vercel.app/subfolder/:asset*" },
       { "source": "/(.*)", "destination": "/" }
-    ]
+    ],
+    "trailingSlash": true
 }
