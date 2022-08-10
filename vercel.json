@@ -2,5 +2,6 @@
     "rewrites": [
       { "source": "/spring-summer-2023-fashion-show/:match*", "destination": "https://nextjs-subfolder.vercel.app/spring-summer-2023-fashion-show/:match*" },
       { "source": "/(.*)", "destination": "/" }
-    ]
+    ],
+    "trailingSlash": true
 }
