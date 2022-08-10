@@ -14,13 +14,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Root Project
+          Welcome to e-commerce Project
         </h1>
 
         <div className={styles.description}>
          <ul>
-         <li><Link href="/subpage">Link to root project sub page</Link></li>
-         <li><Link href="/subfolder">Link to subfolder project root page</Link></li>
+         <li><Link href="/subpage">Link to e-commerce project sub page</Link></li>
+         <li><Link href="/spring-summer-2023-fashion-show">Link to brand-platform project root page</Link></li>
          </ul>
         </div>
       </main>

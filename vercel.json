@@ -1,5 +1,5 @@
 {
     "rewrites": [
-      { "source": "/subfolder/:asset*", "destination": "https://nextjs-subfolder.vercel.app/subfolder/:asset*" }
+      { "source": "/spring-summer-2023-fashion-show/:asset*", "destination": "https://nextjs-subfolder.vercel.app/spring-summer-2023-fashion-show/:asset*" }
     ]
 }
