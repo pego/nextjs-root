@@ -2,6 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
+  async rewrites() {
+    return [
+      {
+      "source": "/spring-summer-2023-fashion-show/:path*",
+      "destination": "https://nextjs-subfolder.vercel.app/spring-summer-2023-fashion-show/:path*"
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
